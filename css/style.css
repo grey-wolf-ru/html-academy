@@ -1,0 +1,157 @@
+body {
+	margin: 0;
+	min-width: 1200px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #533738;
+	align-content: center;
+  	background-image: url("../img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash.jpg");
+	background-color: #F9EAE1;
+  	background-repeat: no-repeat;
+  	background-position: top center;
+}
+section {
+	padding-right: auto;
+ 	padding-left: auto;
+ 	margin: 0;
+}
+section.main {
+	height: 715px;
+}
+section.company {
+	height: 849px;
+}
+section.portfolio {
+	height: 1229px;
+}
+section.komandos {
+	height: 600px;
+}
+section.rabota {
+	height: 398px;
+}
+section.otzivi {
+	height: 788px;
+}
+section.zakaz {
+	height: 624px;
+}
+
+.conteiner {
+	display: block;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 62px;
+}
+h2 {
+	font-size: 40px;
+	line-height: 50px;
+	text-transform: uppercase;
+	text-align: center;
+}
+a {
+	color: #533738;
+}
+
+.menu {
+	margin: 0;
+	display: grid;
+	grid-template-columns: 90px 1020px;
+	align-items: center;
+	column-gap: 26px;
+}
+.logo {
+	margin: 0;
+	display: grid;
+	grid-template-columns: 25px 65px;
+	align-items: center;
+}
+.logotext {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-list {
+	margin-left: 26px;
+	display: flex;
+	flex-wrap: nowrap;
+	font-size: 16px;
+	justify-content: space-between;
+	list-style-type: none;
+}
+.nav-item {
+	margin-right: 15px;
+}
+.header-phone {
+	text-align: right;
+	margin-left: auto;
+}
+.begin h1{
+	margin:0;
+	margin-top: 90px;
+	margin-left: 84px;
+	width: 500px;
+}
+.begin p {
+	margin:0;
+	margin-top: 24px;
+	margin-left: 84px;
+	width: 440px;
+}
+.begin a {
+	margin:0;
+	margin-top: 20px;
+	margin-left: 84px;
+}
+.btn {
+	padding: 22px 70px;
+ 	display: inline-block;
+ 	vertical-align: baseline;
+ 	text-decoration: none;
+  	background-color: #CC8B86;
+  	font-size: 20px;
+	color: #533738;
+	border: 0;
+}
+.kollektiv {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	margin-top: 0;
+	margin-right: 84px;
+	margin-left: 84px;
+}
+.onas-text {
+	margin-bottom: auto;
+}
+.company-facts {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+	align-items: start;
+	height: 273px;
+	align-items: center;
+	background-color: #8D7370;
+}
+.fact {
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: white;
+}
+h1.fact {
+	margin-bottom: 0;
+}
+p.fact {
+	margin-top: 0;
+}
+
+
+/**
+border: solid 1px red;
+**/
